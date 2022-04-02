@@ -2,54 +2,83 @@
 import React, { forwardRef } from 'react';
 import {
   View,
+  Text,
   TextInput as RNTextInput,
   TextInputProps as RNTextInputProps,
   StyleSheet,
   ViewStyle,
+  TouchableOpacity,
 } from 'react-native';
 import { Fonts } from '../../assets/fonts';
+import { Eye } from '../../assets/svgs';
 import colors from '../../styles/color';
 import { hp, wp } from '../responsive-dimension';
 
 interface FormTextInputProps extends RNTextInputProps {
-  label: string;
-  value: string;
-  containerStyle: ViewStyle;
+  label?: string;
+  value?: string;
+  containerStyle?: ViewStyle;
+  placeholder?: string;
+  isPassword?: boolean;
 }
 
 const FormTextInput = forwardRef<RNTextInput, FormTextInputProps>(
-  ({ label, value, containerStyle, ...props }, ref) => {
+  (
+    { label, value, placeholder, isPassword, containerStyle, ...props },
+    ref,
+  ) => {
     return (
-      <View>
+      <View style={[styles.formContainer, containerStyle]}>
+        <Text style={styles.label}>{label}</Text>
         <RNTextInput
-          style={[styles.textInput, containerStyle]}
-          placeholder={label}
           focusable={true}
+          style={styles.formInput}
           value={value}
+          placeholder={placeholder}
           // onFocus={onFocus}
           // secureTextEntry={show}
           placeholderTextColor={colors.placeholderText}
           {...{ ref }}
           {...props}
         />
+
+        {isPassword && (
+          <TouchableOpacity style={styles.passwordContainer}>
+            <Eye />
+          </TouchableOpacity>
+        )}
       </View>
     );
   },
 );
 
 const styles = StyleSheet.create({
-  textInput: {
-    height: hp(60),
-    width: wp(323),
-    borderWidth: 2,
-    borderRadius: hp(5),
-    borderColor: colors.primary,
+  formContainer: {
+    height: hp(55),
+    width: wp(333),
+    borderWidth: 1,
+    borderRadius: hp(10),
+    borderColor: '#F2F5F8AB',
     paddingLeft: hp(18),
     fontFamily: Fonts.circularStdBook,
     color: colors.textColor,
     fontSize: hp(16),
-    backgroundColor: '#E6F5F6',
+    backgroundColor: '#F2F5F8AB',
     marginBottom: hp(20),
+  },
+  formInput: {
+    marginTop: hp(5),
+    fontSize: hp(16),
+  },
+  label: {
+    paddingTop: hp(5),
+    color: colors.textColor,
+    fontFamily: Fonts.circularStdBook,
+  },
+  passwordContainer: {
+    position: 'absolute',
+    right: hp(15),
+    top: hp(20),
   },
 });
 

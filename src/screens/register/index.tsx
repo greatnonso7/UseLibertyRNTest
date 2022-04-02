@@ -17,9 +17,12 @@ const Register = ({ navigation }: any) => {
       </View>
 
       <View style={styles.formContainer}>
-        <FormTextInput />
-        <FormTextInput />
-        <FormTextInput />
+        <FormTextInput placeholder="Adeniji Toluwalope" label="Full name" />
+        <FormTextInput
+          label="Email Address"
+          placeholder="whodeybreet@gmail.com"
+        />
+        <FormTextInput label="Password" placeholder="*******" isPassword />
       </View>
 
       <LongButton buttonStyle={styles.buttonStyle} title="Register" />

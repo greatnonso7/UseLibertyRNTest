@@ -17,8 +17,11 @@ const Login = ({ navigation }: any) => {
       </View>
 
       <View style={styles.formContainer}>
-        <FormTextInput />
-        <FormTextInput />
+        <FormTextInput
+          label="Email Address"
+          placeholder="whodeybreet@gmail.com"
+        />
+        <FormTextInput label="Password" placeholder="*******" />
       </View>
 
       <LongButton
