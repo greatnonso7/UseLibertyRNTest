@@ -21,12 +21,16 @@ const Login = ({ navigation }: any) => {
         <FormTextInput />
       </View>
 
-      <LongButton buttonStyle={styles.buttonStyle} title="Login" />
+      <LongButton
+        onPress={() => navigation.navigate('Dashboard')}
+        buttonStyle={styles.buttonStyle}
+        title="Login"
+      />
 
       <View style={styles.loginContainer}>
-        <Text style={styles.loginText}>Already have an account</Text>
+        <Text style={styles.loginText}>Don't have an account</Text>
         <TouchableOpacity onPress={() => navigation.navigate('Register')}>
-          <Text style={styles.loginButton}> Login</Text>
+          <Text style={styles.loginButton}> Register</Text>
         </TouchableOpacity>
       </View>
     </Container>

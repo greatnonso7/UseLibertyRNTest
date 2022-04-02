@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     height: hp(54),
     width: wp(327),
     backgroundColor: colors.buttonColor,
-    borderRadius: hp(15),
+    borderRadius: hp(10),
     justifyContent: 'center',
     alignSelf: 'center',
   },

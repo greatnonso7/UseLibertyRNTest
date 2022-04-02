@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNUseLibertyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNUseLibertyTestTests.m */; };
+		06E17CCE9E434059B2AE6B39 /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNUseLibertyTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNUseLibertyTest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-RNUseLibertyTest-RNUseLibertyTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNUseLibertyTest-RNUseLibertyTestTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CA332DC7FCB544679357B3F9 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */; };
-		06E17CCE9E434059B2AE6B39 /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */; };
-		895D8BD4C0B54AA8A57D657B /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */; };
+		255899D6C4034EC39B276749 /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */; };
 		338044BAC70D488281F2C839 /* CircularStd-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13227A3F99AA47A38BE110F7 /* CircularStd-BoldItalic.otf */; };
 		43F839A7894A48CD9CF80CF9 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 695BD992973444F2BE764946 /* CircularStd-Book.otf */; };
-		255899D6C4034EC39B276749 /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */; };
-		E577F4F1DC6D4F19933C8CFA /* CircularStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */; };
-		FF9315377AED4391A2E6E43E /* CircularStd-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */; };
+		7699B88040F8A987B510C191 /* libPods-RNUseLibertyTest-RNUseLibertyTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNUseLibertyTest-RNUseLibertyTestTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		895D8BD4C0B54AA8A57D657B /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */; };
 		B0E70557B87D49BE820AE659 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACEE56096F224740B08471EB /* CircularStd-Medium.otf */; };
+		CA332DC7FCB544679357B3F9 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */; };
+		E577F4F1DC6D4F19933C8CFA /* CircularStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */; };
 		FBCCD6A2CF714CD4A9441E0B /* CircularStd-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D31DE302086C48D5B6D899B2 /* CircularStd-MediumItalic.otf */; };
+		FF9315377AED4391A2E6E43E /* CircularStd-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,9 @@
 		00E356EE1AD99517003FC87E /* RNUseLibertyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNUseLibertyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNUseLibertyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNUseLibertyTestTests.m; sourceTree = "<group>"; };
+		0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Black.otf"; path = "../src/assets/fonts/CircularStd-Black.otf"; sourceTree = "<group>"; };
+		11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BookItalic.otf"; path = "../src/assets/fonts/CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
+		13227A3F99AA47A38BE110F7 /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BoldItalic.otf"; path = "../src/assets/fonts/CircularStd-BoldItalic.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNUseLibertyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNUseLibertyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNUseLibertyTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNUseLibertyTest/AppDelegate.mm; sourceTree = "<group>"; };
@@ -47,23 +50,20 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNUseLibertyTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNUseLibertyTest/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNUseLibertyTest-RNUseLibertyTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUseLibertyTest-RNUseLibertyTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-LightItalic.otf"; path = "../src/assets/fonts/CircularStd-LightItalic.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNUseLibertyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUseLibertyTest.debug.xcconfig"; path = "Target Support Files/Pods-RNUseLibertyTest/Pods-RNUseLibertyTest.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNUseLibertyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUseLibertyTest.release.xcconfig"; path = "Target Support Files/Pods-RNUseLibertyTest/Pods-RNUseLibertyTest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNUseLibertyTest-RNUseLibertyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUseLibertyTest-RNUseLibertyTestTests.debug.xcconfig"; path = "Target Support Files/Pods-RNUseLibertyTest-RNUseLibertyTestTests/Pods-RNUseLibertyTest-RNUseLibertyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNUseLibertyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUseLibertyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Bold.otf"; path = "../src/assets/fonts/CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		695BD992973444F2BE764946 /* CircularStd-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Book.otf"; path = "../src/assets/fonts/CircularStd-Book.otf"; sourceTree = "<group>"; };
+		7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BlackItalic.otf"; path = "../src/assets/fonts/CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNUseLibertyTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNUseLibertyTest-RNUseLibertyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUseLibertyTest-RNUseLibertyTestTests.release.xcconfig"; path = "Target Support Files/Pods-RNUseLibertyTest-RNUseLibertyTestTests/Pods-RNUseLibertyTest-RNUseLibertyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACEE56096F224740B08471EB /* CircularStd-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Medium.otf"; path = "../src/assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Light.otf"; path = "../src/assets/fonts/CircularStd-Light.otf"; sourceTree = "<group>"; };
+		D31DE302086C48D5B6D899B2 /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-MediumItalic.otf"; path = "../src/assets/fonts/CircularStd-MediumItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */ = {isa = PBXFileReference; name = "CircularStd-Black.otf"; path = "../src/assets/fonts/CircularStd-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BlackItalic.otf"; path = "../src/assets/fonts/CircularStd-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; name = "CircularStd-Bold.otf"; path = "../src/assets/fonts/CircularStd-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		13227A3F99AA47A38BE110F7 /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BoldItalic.otf"; path = "../src/assets/fonts/CircularStd-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		695BD992973444F2BE764946 /* CircularStd-Book.otf */ = {isa = PBXFileReference; name = "CircularStd-Book.otf"; path = "../src/assets/fonts/CircularStd-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BookItalic.otf"; path = "../src/assets/fonts/CircularStd-BookItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */ = {isa = PBXFileReference; name = "CircularStd-Light.otf"; path = "../src/assets/fonts/CircularStd-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-LightItalic.otf"; path = "../src/assets/fonts/CircularStd-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ACEE56096F224740B08471EB /* CircularStd-Medium.otf */ = {isa = PBXFileReference; name = "CircularStd-Medium.otf"; path = "../src/assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D31DE302086C48D5B6D899B2 /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-MediumItalic.otf"; path = "../src/assets/fonts/CircularStd-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +126,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		387D36198EF14D23B94A4AEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */,
+				7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */,
+				688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */,
+				13227A3F99AA47A38BE110F7 /* CircularStd-BoldItalic.otf */,
+				695BD992973444F2BE764946 /* CircularStd-Book.otf */,
+				11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */,
+				C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */,
+				3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */,
+				ACEE56096F224740B08471EB /* CircularStd-Medium.otf */,
+				D31DE302086C48D5B6D899B2 /* CircularStd-MediumItalic.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,24 +186,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		387D36198EF14D23B94A4AEF /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				0502A73FEA5F46C6BCEC12BE /* CircularStd-Black.otf */,
-				7C9874FDD98542C2B114C981 /* CircularStd-BlackItalic.otf */,
-				688259282FDB45A795EDE2E0 /* CircularStd-Bold.otf */,
-				13227A3F99AA47A38BE110F7 /* CircularStd-BoldItalic.otf */,
-				695BD992973444F2BE764946 /* CircularStd-Book.otf */,
-				11F5C65F28E945F889A2A71E /* CircularStd-BookItalic.otf */,
-				C6B0BB9535C14A1094914906 /* CircularStd-Light.otf */,
-				3868490C40D3472FB171D385 /* CircularStd-LightItalic.otf */,
-				ACEE56096F224740B08471EB /* CircularStd-Medium.otf */,
-				D31DE302086C48D5B6D899B2 /* CircularStd-MediumItalic.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
