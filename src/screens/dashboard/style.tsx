@@ -31,6 +31,7 @@ export const styles = StyleSheet.create({
   profileName: {
     fontFamily: Fonts.circularStdBold,
     fontSize: hp(17),
+    color: colors.appBlack,
   },
   headerContainer: {
     flexDirection: 'row',
