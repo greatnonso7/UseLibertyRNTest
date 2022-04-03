@@ -21,7 +21,7 @@ const Login = ({ navigation }: any) => {
           label="Email Address"
           placeholder="whodeybreet@gmail.com"
         />
-        <FormTextInput label="Password" placeholder="*******" />
+        <FormTextInput label="Password" placeholder="*******" isPassword />
       </View>
 
       <LongButton

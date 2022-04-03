@@ -12,7 +12,7 @@ const Register = ({ navigation }: any) => {
       <HeaderBar headerTitle="Register" />
       <View style={styles.headerTextContainer}>
         <Text style={styles.headerText}>
-          Complete the registration process to get started
+          Complete the registration {'\n'}process to get started
         </Text>
       </View>
 
@@ -25,7 +25,11 @@ const Register = ({ navigation }: any) => {
         <FormTextInput label="Password" placeholder="*******" isPassword />
       </View>
 
-      <LongButton buttonStyle={styles.buttonStyle} title="Register" />
+      <LongButton
+        buttonStyle={styles.buttonStyle}
+        title="Register"
+        onPress={() => navigation.navigate('Dashboard')}
+      />
 
       <View style={styles.loginContainer}>
         <Text style={styles.loginText}>Don't have an account</Text>

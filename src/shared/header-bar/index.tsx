@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: hp(23),
     fontFamily: Fonts.circularStdBold,
+    color: '#000',
   },
 });
 

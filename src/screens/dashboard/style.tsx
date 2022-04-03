@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
     marginTop: hp(12),
   },
   profileContainer: {
-    width: wp(45),
-    height: hp(45),
+    width: 45,
+    height: 45,
     backgroundColor: colors.yellow,
     justifyContent: 'center',
     alignItems: 'center',
@@ -99,8 +99,8 @@ export const styles = StyleSheet.create({
   },
   itemContainer: {
     alignItems: 'center',
-    width: wp(66),
-    height: hp(66),
+    width: 66,
+    height: 66,
     borderWidth: hp(1),
     justifyContent: 'center',
     borderRadius: hp(100),

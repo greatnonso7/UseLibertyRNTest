@@ -8,6 +8,7 @@ import {
   StyleSheet,
   ViewStyle,
   TouchableOpacity,
+  Platform,
 } from 'react-native';
 import { Fonts } from '../../assets/fonts';
 import { Eye } from '../../assets/svgs';
@@ -54,24 +55,24 @@ const FormTextInput = forwardRef<RNTextInput, FormTextInputProps>(
 
 const styles = StyleSheet.create({
   formContainer: {
-    height: hp(55),
+    height: hp(60),
     width: wp(333),
     borderWidth: 1,
     borderRadius: hp(10),
     borderColor: '#F2F5F8AB',
-    paddingLeft: hp(18),
+    paddingLeft: hp(15),
     fontFamily: Fonts.circularStdBook,
     color: colors.textColor,
-    fontSize: hp(16),
+    // fontSize: hp(16),
     backgroundColor: '#F2F5F8AB',
-    marginBottom: hp(20),
+    marginBottom: hp(30),
   },
   formInput: {
-    marginTop: hp(5),
+    marginTop: Platform.OS === 'ios' ? hp(5) : -10,
     fontSize: hp(16),
   },
   label: {
-    paddingTop: hp(5),
+    paddingTop: hp(10),
     color: colors.textColor,
     fontFamily: Fonts.circularStdBook,
   },
